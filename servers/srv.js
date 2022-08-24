@@ -15,7 +15,7 @@ import bodyParser from 'body-parser';
 const PORT = process.env.PORT || 3100;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
-//git test
+
 // paste the code from codegen here
 //const fetch = require("node-fetch")
 import fetch from 'node-fetch';
